@@ -1,2 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap')
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.lista {
+    display: flex;
+    column-gap: 20px;
+}
+.logo_cat {
+    height: 100px;
+    width: 100px;
+}
+a {
+    list-style-type: none;
+    color: #E5E7EB;
+}
+li {
+    list-style-type: none;
+}
+.links {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    align-items: center;
+
+}
+.logo_gigante {
+    width: 600px;
+    height: 300px;
+    margin: 0;
+    
+}
+.logo {
+    display: flex;
+}
+.logo1 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+.header_2{
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px;
+    padding-left: 250px;
+    padding-right: 250px;
+    align-items: center;
+    justify-content: center;
+    column-gap:  30px;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.info_title {
+    font-size: 55px; 
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+.info {
+    font-size: 20px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+}
+.info_button {
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #3882F6;
+    width: 130px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 12px;;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap')
